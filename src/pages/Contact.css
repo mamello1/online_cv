@@ -1,0 +1,29 @@
+ion-header::after {
+    display: none;
+  }
+
+
+ion-content{
+    --background: url('../Images/picture7.jpg') no-repeat center/cover fixed;
+   
+}
+
+.contact{  
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    color: whitesmoke;
+} 
+
+
+
+
+
+
+
+
+  

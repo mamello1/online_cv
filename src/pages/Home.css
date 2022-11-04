@@ -1,0 +1,92 @@
+ion-header::after {
+    display: none;
+  }
+
+
+ion-content{
+    --background: url('../Images/picture7.jpg') no-repeat center/cover fixed;
+}
+
+
+/* .welcome-h2{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+} */
+
+.welcome-p{
+
+    width: 250px;
+    text-align: center; 
+    margin: auto; 
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px; 
+    color: whitesmoke;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+
+
+
+.profileImg{
+
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    border: 20px solid whitesmoke;
+    height: 350%;
+    width: 350%;
+    border-radius: 20px;
+    
+}
+
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+
+  }
+
+.left {
+    left: 0;
+    background-color: #111;
+}
+
+.right {
+    right: 0;
+    --background: url('../Images/picture7.jpg') no-repeat center/cover fixed;
+}
+
+
+
+.vl {
+    border-left: 6px solid whitesmoke;
+    height: 500px;
+  }
+
+.vl {
+    border-left: 6px solid whitesmoke;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+
+
+
+

@@ -1,0 +1,94 @@
+ion-header::after {
+    display: none;
+  }
+
+ion-content{
+    --background: url('../Images/picture7.jpg') no-repeat center/cover fixed;
+   
+}
+
+
+.about-content{
+    color: whitesmoke;
+    width: 450px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 12px;
+}
+
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .left {
+    float: left;
+    background-color: #111;
+  }
+
+  .right {
+    float: left;
+    --background: url('../Images/picture7.jpg') no-repeat center/cover fixed;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ 
+
+  .vl {
+    border-left: 6px solid whitesmoke;
+    height: 500px;
+  }
+
+  .vl {
+    border-left: 6px solid whitesmoke;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+  }
+
+  .column {
+    float: left;
+    width: 35%;
+    padding: 25px;
+  }
+  
+   .column img {   
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 50px;
+  
+  } 
+  
+
+  .row {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+
+.profileImg{  
+    border: 5px solid whitesmoke;
+    height: 55%;
+    width: 52%;
+    border-radius: 0%;
+  
+}
+
